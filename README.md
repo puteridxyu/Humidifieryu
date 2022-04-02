@@ -1,5 +1,5 @@
 # Humidifieryu
 Wirelessly control the humidifier using raspberry 
 
-Video URL : shorturl.at/jstN4
+Video URL : otw
 
