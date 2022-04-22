@@ -1,0 +1,19 @@
+# This affects access control for clients with no username.
+
+topic read $SYS/
+#
+
+# This only affects clients with username "__".
+
+user ayu
+topic fk/humidifier1/temperature
+topic fk/humidifier1/humidity
+topic fk/humidifier1/waterLevel
+topic fk/humidifier2/temperature
+topic fk/humidifier2/humidity
+topic fk/humidifier2/waterLevel
+
+
+# This affects all clients.
+
+pattern write $SYS/broker/connection/%c/state
