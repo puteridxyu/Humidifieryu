@@ -6,6 +6,8 @@ Humidifieryu enables wireless control of humidifiers, featuring automatic functi
 
 ## GUI
 
+<img src="images/readMe/architecture.png" alt="IoT Architecture Design" width="500" height="300">
+
 ![IoT Architecture Design](images/readMe/architecture.png)
 
 - The architecture design illustrates the IoT setup.
