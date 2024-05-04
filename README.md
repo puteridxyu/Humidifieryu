@@ -2,8 +2,6 @@
 
 Humidifieryu enables wireless control of humidifiers, featuring automatic functions and remote access. Built using Raspberry Pi, MQTT, SQLite, Firebase, and Thingsboard.
 
-[Documentation Link](https://docs.google.com/document/d/1vsX6TnJmZdV1Dld4LS_BJR-UVwAA0PGREqZGUc8Pvko/edit?usp=sharing)
-
 ## GUI
 
 <img src="images/readMe/architecture.png" alt="IoT Architecture Design" width="500">
@@ -30,4 +28,3 @@ Humidifieryu enables wireless control of humidifiers, featuring automatic functi
 
 - The exchange of messages in MQTT protocol using QoS1 is depicted.
 
-Explore the detailed functionality of Humidifieryu in the provided documentation.
