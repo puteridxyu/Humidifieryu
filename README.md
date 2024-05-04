@@ -1,32 +1,33 @@
 # Humidifieryu
-Wirelessly control the humidifier (auto funtion features and remote) using Raspberry Pi, MQTT, SQLite, Firebase, Thingsboard
 
-Documentation link : https://docs.google.com/document/d/1o80Cyym8PGqP5UMkiQmYfeYMJnGSAGMQC05QYpLXVwM/edit?usp=sharing
+Humidifieryu enables wireless control of humidifiers, featuring automatic functions and remote access. Built using Raspberry Pi, MQTT, SQLite, Firebase, and Thingsboard.
 
-![Image](images/readMe/architecture.png)
+[Documentation Link](https://docs.google.com/document/d/1o80Cyym8PGqP5UMkiQmYfeYMJnGSAGMQC05QYpLXVwM/edit?usp=sharing)
 
-notes..
+## GUI
 
-![Image](images/readMe/mainDashboard.png)
+![IoT Architecture Design](images/readMe/architecture.png)
 
-notes..
+The architecture design illustrates the IoT setup.
 
-![Image](images/readMe/dashboardBuilding.png)
+![Main Dashboard](images/readMe/mainDashboard.png)
 
-notes..
+The main dashboard displays buildings equipped with our humidifiers.
 
-![Image](images/readMe/dashboardHumidifier2.png)
+![Building Dashboard](images/readMe/dashboardBuilding.png)
 
-notes..
+This dashboard presents detailed information for selected buildings, including the number of humidifiers and alarm alerts.
 
-![Image](images/readMe/Alarm.png)
+![Real-time Updates](images/readMe/dashboardHumidifier2.png)
 
-notes..
+Real-time updates feature current humidity, temperature, and humidifier water level, with alarm notifications.
 
-![Image](images/readMe/terminalMQTTBroker.png)
+![Alarm Notifications](images/readMe/Alarm.png)
 
-notes..
+Alarm notifications alert users to high temperatures via a table interface.
 
+![MQTT Broker Terminal](images/readMe/terminalMQTTBroker.png)
 
+The exchange of messages in MQTT protocol using QoS1 is depicted.
 
-
+Explore the detailed functionality of Humidifieryu in the provided documentation.
